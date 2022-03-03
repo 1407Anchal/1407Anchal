@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewcart">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sad2"
+        android:visibility="gone"
+        android:id="@+id/imv1"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OOPS!! Your Cart Is Empty Now...."
+        android:textSize="60dp"
+        android:id="@+id/noitemstv"
+        android:visibility="gone"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll1"
+        android:orientation="vertical">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOP CART"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_margin="20dp"
+        android:background="#DBF3BF"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+
+    <ListView
+        android:id="@+id/cartlistview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="12"
+        android:numColumns="2" />
+
+
+    <TextView
+        android:id="@+id/deliverytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text=" delivery"
+        android:background="#6200EE"
+        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/totaltv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textAlignment="center"
+            android:background="#6200EE"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Total"
+
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="proceed"
+           android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="24sp"
+            android:text="Proceed" />
+
+
+
+</LinearLayout>
+</LinearLayout>

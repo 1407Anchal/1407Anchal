@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderDetail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER DETAILS"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:background="#DDA4E6"
+        >
+
+    </TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderdetaillv"
+        />
+    <TextView
+        android:id="@+id/deliverytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text=" delivery"
+        android:background="#6200EE"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/totaltv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:background="#6200EE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Total"
+
+        android:textStyle="bold" />
+
+</LinearLayout>

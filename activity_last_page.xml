@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LastPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order Id -"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="#C6F68D"
+        android:id="@+id/order_id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANKYOU FOR SHOPPING!!"
+        android:layout_gravity="center"
+        android:background="#4CEDDE"
+        android:layout_marginTop="110dp"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:id="@+id/thankyou"/>
+
+
+
+</LinearLayout>
